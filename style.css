@@ -1,0 +1,273 @@
+.header {
+  height: 1080px;
+  width: 100vw;
+  background-color: #141024;
+}
+.header-line {
+  display: flex;
+  position: relative;
+}
+.main-name {
+  width: 228px;
+  height: 48px;
+  font-family: jost;
+  font-weight: 700;
+  font-size: 30px;
+
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.main-name a {
+  color: #fff;
+  text-decoration: none;
+}
+.nav {
+  width: 324px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 38px;
+  left: 798px;
+}
+.nav a {
+  font-family: Jost;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.number {
+  box-sizing: content-box;
+  position: absolute;
+  top: 30px;
+  left: 1565px;
+}
+.number a {
+  font-family: Jost;
+  font-weight: 600;
+  color: #fff;
+  font-size: 30px;
+  text-decoration: none;
+}
+.center-content {
+  width: 560px;
+  box-sizing: content-box;
+  position: absolute;
+  top: 344px;
+  left: 380px;
+}
+.center-content h1 {
+  font-family: Jost;
+  font-size: 70px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.center-content span {
+  font-family: Jost;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #fff;
+}
+.button-center {
+  margin-top: 50px;
+  display: block;
+  border: solid #d52027;
+  width: 260px;
+  height: 79px;
+  border-radius: 5px;
+  background-color: #d52027;
+  color: #fff;
+}
+.button-center:hover {
+  background-color: rgb(106, 31, 34);
+}
+.girl {
+  position: absolute;
+  top: 162.52px;
+  left: 924px;
+}
+.girl img {
+  width: 783px;
+  height: 917.48px;
+}
+
+/* container  */
+
+.container {
+  margin-left: 380px;
+}
+.text-top-section span {
+  margin-top: 120px;
+  display: block;
+  width: 841px;
+  height: 144px;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.num-info {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.num-info div:last-child {
+  margin-right: 404px;
+}
+.info-number {
+  color: #d52027;
+  font-family: Jost;
+  font-size: 70px;
+  font-weight: 600;
+}
+.info-text {
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  display: block;
+  width: 260px;
+  height: 58px;
+  margin-right: 40px;
+}
+
+.you-get {
+  margin-top: 120px;
+}
+.you-get h2 {
+  font-family: Jost;
+  font-size: 50px;
+  font-weight: 600;
+}
+.you-get-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 379px 220px 0px;
+}
+
+.you-get-item h3 {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.you-get-item span {
+  margin-top: 20px;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  display: block;
+  width: 360px;
+  height: 87px;
+}
+.coaches {
+  width: 1560px;
+  display: flex;
+  overflow-y: scroll;
+
+}
+.coach {
+  margin: 0px 40px 77px 0px;
+}
+.coaches::-webkit-scrollbar{
+ width: 15px;
+}
+.coaches::-webkit-scrollbar-track{
+  background-color: #fff ;
+}
+.coaches::-webkit-scrollbar-thumb{
+  border: 4px solid #fff;
+  border-radius: 8px;
+  background-color: black;
+ 
+}
+
+.coach h3{
+  font-family: Jost;
+font-size: 24px;
+font-weight: 600;
+}
+
+.coach span{
+  font-family: Jost;
+font-size: 18px;
+font-weight: 400;
+display: block ;
+margin: 10px 0px 20px 0px;
+}
+
+.coach a{
+  font-family: Jost;
+font-size: 18px;
+font-weight: 400;
+color: #D52027;
+text-decoration: none;
+}
+
+.choose-package{
+  margin-top: 120px;
+  width: 1160px;
+  height: 640px;
+}
+.choose-package h2{
+  display: block;
+  color: #141024;
+font-family: Jost;
+font-size: 50px;
+font-weight: 600;
+}
+.package{
+display: flex;
+justify-content: space-between;
+}
+
+.package-item{
+  width: 360px;
+  height: 460px;
+  border-radius: 20px;
+border: 1px solid rgba(20, 16, 36, 0.20);
+align-self: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+}
+.package-item h3{
+font-weight: 600;
+font-family: Jost;
+font-size: 30px;
+padding: 40px auto 60px auto;
+}
+.price{
+  padding-bottom: 20px;
+  font-family: Jost;
+font-size: 50px;
+font-weight: 600;
+line-height: 80px;
+}
+
+.package-item p{
+  font-family: Jost;
+font-size: 18px;
+font-weight: 400;
+line-height: 29px;
+text-align: center;
+
+}
+.package div:first-child{
+  color: #fff;
+  background-color: #141024;
+  height: 500px;
+}
+.package-item button{
+  margin-bottom: 40px;
+}
+/* footer */
+.footer-form{
+  display: flex;
+}
+
