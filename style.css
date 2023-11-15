@@ -267,7 +267,31 @@ text-align: center;
   margin-bottom: 40px;
 }
 /* footer */
-.footer-form{
-  display: flex;
+.top-footer{
+  height: 460px;
+  background-color: #d52027;
+  position: relative;
 }
-
+.footer-form__text{
+  position: absolute;
+  color: #fff;
+  font-family: Jost;
+  width: 476px;
+  top: 106px;
+  left: 440px;
+}
+.footer-form__text-title{
+font-size: 36px;
+font-weight: 600;
+}
+.footer-form__text-content{
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer-form{
+  width: 510px;
+}
+.data-user{
+  height: 64px;
+  width: 500px;
+}
